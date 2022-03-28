@@ -1,0 +1,398 @@
+<html>
+  <head>
+    <title>RWID - Remote World Indonesia</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link type="image/x-icon" rel="shortcut icon" href="https://remoteworker.id/web/image/website/1/favicon/"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDPMJ7DW24"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TDPMJ7DW24');
+    </script>
+    <!-- tailwind element -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <style>     
+      /* typewritter effect */ 
+      .blink {
+        animation: blink 0.5s infinite;
+      }
+      @keyframes blink{
+        to { opacity: .0; }
+      }
+      .flex {
+        display: flex;
+      }    
+      
+      /* WA Float */
+      .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+      }
+      .my-float{
+        margin-top:16px;
+      }
+      /* /WA Float */
+    </style>
+  </head>
+  <body>
+
+  <div class="min-h-screen bg-gradient-to-r via-cyan-100 from-green-400 to-green-100 py-6 flex flex-col justify-center sm:py-12">
+    <div class="relative py-3 sm:px-20">
+
+      <div class="relative px-4 py-2 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+<!--        <div class="max-w-md mx-auto">-->
+        <div>
+          <div>
+            <img src="img/logo.png" class="h-30" />
+          </div>
+          <div class="divide-y divide-gray-200">
+            <div class="py-8 text-base leading-7 space-y-4 text-gray-700 sm:text-3xl text-justify">
+              <!-- typewritter -->
+              <div class="flex">
+                <p class="mb-12 italic text-left" id="word"></p><p class="header-sub-title blink">|</p>
+              </div>
+
+              <p class="mb-10">Platform dan Komunitas <b>Menembus Remote Work</b>, Kerja dari Rumah bergaji Dollar sebagai <strong>Remote Worker</strong> atau membangun <b>Passive Income</b> sebagai Android Publisher. Dibimbing dari 0!
+              <a class="underline" href="https://www.instagram.com/explore/tags/alumniremoteworkerid/" target="_blank"> Klik disini untuk melihat daftar Success Story member RWID!</a><br/><br/>Simak pesan dari CEO kami berikut ini. Setelah itu kamu juga bisa memverifikasi profil <a href="https://bit.ly/swdev-cv" class="underline" target="_blank">Upwork</a> dan CV lengkapnya <a class="underline" href="https://tinyurl.com/swdev-cv">disini.</a>
+              </p>
+              <p class="mb-10"><center><iframe width="640" height="360" src="https://www.youtube.com/embed/Bvaz86K55Bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></p>
+              <!-- bottom of youtube video -->
+
+              <ul class="nav nav-tabs flex flex-col md:flex-row flex-wrap list-none border-b-0 pl-0 mb-4" id="tabs-tab"
+  role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a href="#tabs-home" class="
+                    nav-link
+                    block
+                    text-lg
+                    leading-tight
+                    uppercase
+                    border-x-0 border-t-0 border-b-2 border-transparent
+                    px-6
+                    py-3
+                    my-2
+                    hover:border-transparent hover:bg-gray-100
+                    focus:border-transparent
+                    active
+                  " id="tabs-home-tab" data-bs-toggle="pill" data-bs-target="#tabs-home" role="tab" aria-controls="tabs-home"
+                    aria-selected="true"><strong>Tahap Mentoring</strong></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a href="#tabs-profile" class="
+                    nav-link
+                    block
+                    text-lg
+                    leading-tight
+                    uppercase
+                    border-x-0 border-t-0 border-b-2 border-transparent
+                    px-6
+                    py-3
+                    my-2
+                    hover:border-transparent hover:bg-gray-100
+                    focus:border-transparent
+                  " id="tabs-profile-tab" data-bs-toggle="pill" data-bs-target="#tabs-profile" role="tab"
+                    aria-controls="tabs-profile" aria-selected="false"><strong>Jenis Bootcamp</strong></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a href="#tabs-messages" class="
+                    nav-link
+                    block
+                    text-lg        
+                    leading-tight
+                    uppercase
+                    border-x-0 border-t-0 border-b-2 border-transparent
+                    px-6
+                    py-3
+                    my-2
+                    hover:border-transparent hover:bg-gray-100
+                    focus:border-transparent
+                  " id="tabs-messages-tab" data-bs-toggle="pill" data-bs-target="#tabs-messages" role="tab"
+                    aria-controls="tabs-messages" aria-selected="false"><strong>Cara Bergabung</strong></a>
+                </li>                
+              </ul>
+              <div class="tab-content" id="tabs-tabContent">
+                <div class="tab-pane fade show active" id="tabs-home" role="tabpanel" aria-labelledby="tabs-home-tab">
+                  <!-- Tahap Mentoring -->
+                  <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+                    <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner relative w-full overflow-hidden">
+                      <div class="carousel-item active relative float-left w-full">
+                        <img
+                          src="https://raw.githubusercontent.com/remoteworkerid/images/main/3DB468AD-DD0F-48A9-AC29-41D34A409880.png"
+                          class="block w-full"
+                          alt="..."
+                        />
+                        <p class="text-center">Tahapan Lengkap Mentoring</p>
+                        <div class="carousel-caption hidden md:block absolute text-center">
+                          <!-- <h5 class="text-xl">Tahapan Lengkap</h5>
+                          <p>Perhatikan keseluruhan tahapan di RWID. Identifikasi tahapmu saat ini!</p>
+                          -->
+                        </div>
+                      </div>
+                      <div class="carousel-item relative float-left w-full">
+                        <img
+                          src="https://raw.githubusercontent.com/remoteworkerid/images/main/A8342C3C-0E9E-4F3F-A172-DB47A18B783E.png"
+                          class="block w-full"
+                          alt="..."
+                        />
+                        <p class="text-center">Pilihan Jalur Remote Work-mu</p>
+                        <div class="carousel-caption hidden md:block absolute text-center">
+                          <!-- <h5 class="text-xl">Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                          -->
+                        </div>
+                      </div>
+                      <div class="carousel-item relative float-left w-full">
+                        <img
+                          src="https://raw.githubusercontent.com/remoteworkerid/images/main/F46523FD-BA03-461D-8DE2-BE2DD3AA6110.png"
+                          class="block w-full"
+                          alt="..."
+                        />
+                        <p class="text-center">Aktivitas Mentoring via Zoom</p>
+                        <div class="carousel-caption hidden md:block absolute text-center">
+                          <!-- <h5 class="text-xl">Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                          -->
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="next"
+                    >
+                      <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-profile" role="tabpanel" aria-labelledby="tabs-profile-tab">
+                  <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+                    <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner relative w-full overflow-hidden">
+                      <div class="carousel-item active relative float-left w-full">
+                        <img
+                          src="https://raw.githubusercontent.com/remoteworkerid/images/main/Price.jpg"
+                          class="block w-full"
+                          alt="..."
+                        />
+                        <p class="text-center">Empat Pilihan Bootcamp. Cek detailnya <a href="https://app.remoteworker.id">disini</a></p>
+                        <div class="carousel-caption hidden md:block absolute text-center">
+                          <!-- <h5 class="text-xl">Tahapan Lengkap</h5>
+                          <p>Perhatikan keseluruhan tahapan di RWID. Identifikasi tahapmu saat ini!</p>
+                          -->
+                        </div>
+                      </div>
+                      
+                     
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="next"
+                    >
+                      <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  
+                  
+                </div>
+                <div class="tab-pane fade" id="tabs-messages" role="tabpanel" aria-labelledby="tabs-profile-tab">
+                  <ul class="list-disc space-y-3">
+                    <li class="flex items-start">
+                      <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 w-screen">
+                        <a href="https://app.remoteworker.id" target="_blank">Klik disini untuk membuka RWID App langsung di browsermu. Gunakan kode promo yang sudah kamu punya untuk klaim harga PROMO!</a>
+                      </button>
+                    </li>
+                    <li class="flex items-start">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-screen">
+                        <a href="https://bit.ly/rwid-zoom" target="_blank">Tanya-tanya dulu di Whatsapp Group? Silahkan join disini. Free!</a>
+                      </button>
+                    </li>
+                    </li>     
+                  </ul>
+                </div>
+              </div>
+            </div>          
+            
+            <!-- whatsapp -->
+            <div>
+              <div class="text-lg leading-7 space-y-4 text-gray-700 sm:text-3xl text-justify ">
+                
+                <!-- button collection -->
+              <ul class="list-disc space-y-3">                
+                <li class="flex items-start">
+                  <button class="mr-1 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full w-screen">
+                    <a href="https://www.udemy.com/user/remoteworkerid/" target="_blank">Udemy Course</a>
+                  </button>
+              
+                </li>
+                <li class="flex items-start">
+                  <button class="mr-1 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full w-screen">
+                    <a href="https://open.spotify.com/show/3vQyWQkokADrMvmZwSLb1t" target="_blank">Spotify</a>
+                  </button>
+                  <button class="ml-1 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full w-screen">
+                    <a href="https://bit.ly/rwid-yt-subs" target="_blank">Youtube</a>
+                  </button>
+                </li>               
+              </ul>
+              <!-- /button collection -->
+              </div>
+            </div>
+            <!-- /whatsapp -->
+            <a href="https://wa.me/628122221975?text=Hai RWID, saya sudah memyimak materi-materi tentang RWID, namun ada yang masih ingin saya tanyakan lebih lanjut, yaitu: " class="float" target="_blank">
+              <i class="fa fa-whatsapp fa-lg my-float"></i>
+              </a>          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+
+  <!-- typewritter -->
+  <script>
+    const words = [
+      "> Lelah menembus kemacetan tiap hari?   ",
+      "> Berangkat saat anak masih tidur..   ",
+      "> ..dan pulang saat anak sudah tidur?   ",
+      "> Atau, kuliah tapi ga yakin setelah itu?   ",
+      "> Atau, udah kerja, tapi gaji ngepas?"   ,      
+      "> Nah, pelajari mentoring dari kami:    ",
+      "> ..proven membantu banyak orang..   ",
+      "> ..bekerja dari rumah, ..   ",
+      "> ..ke perusahaan luar negeri   ",
+      "> Tentunya, bergaji dollar!   ",
+      "> Eits, ga ada yang instan:    ",
+      "> ..kamu wajib menguasai skill..   ",
+      "> ..yang sesuai demand   ",
+      "> Apa? Sudah menguasai? Awesome!   ",
+      "> Jalanmu akan lebih mudah!   ",
+      "> Hanya saja: tetap. Semua butuh usaha   ",
+      "> Jangan khawatir: mentoring kami lifetime..   ",
+      "> ..sampai menembus job remote!   ",
+      "> Biaya? 1x biaya pendaftaran, ..   ",
+      "> ..untuk mentoring selamanya!   ",
+      "> Selamat datang di Remote Worker ID!   ",
+    ];
+    let i = 0;
+    let timer;
+
+    function typingEffect() {
+      let word = words[i].split("");
+      var loopTyping = function() {
+        if (word.length > 0) {
+          document.getElementById('word').innerHTML += word.shift();
+        } else {
+          deletingEffect();
+          return false;
+        };
+        timer = setTimeout(loopTyping, 150);
+      };
+      loopTyping();
+    };
+
+    function deletingEffect() {
+      let word = words[i].split("");
+      var loopDeleting = function() {
+        if (word.length > 1) {
+          word.pop();
+          document.getElementById('word').innerHTML = word.join("");
+        } else {
+          if (words.length > (i + 1)) {
+            i++;
+          } else {
+            i = 0;
+          };
+          typingEffect();
+          return false;
+        };
+        timer = setTimeout(loopDeleting, 50);
+      };
+      loopDeleting();
+    };
+
+    typingEffect();
+  </script>
+</html>
